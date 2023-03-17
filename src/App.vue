@@ -1,20 +1,12 @@
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <el-button>Default</el-button>
-  <el-button>Default</el-button>
-  <el-button size="small" type="primary">
-    <span>更多</span>
-    <el-icon class="el-icon--right"><arrow-down /></el-icon>
-  </el-button>
-  <HelloWorld msg="Vite + Vue3" />
-  <div>222</div>
+  <!-- <h1>Hello App!</h1>
+  <p>
+    <router-link to="/">Go to Home</router-link>
+    <router-link to="/about">Go to About</router-link>
+  </p> -->
+  <!-- 路由出口 -->
+  <!-- 路由匹配到的组件将渲染在这里 -->
+  <router-view></router-view>
 </template>
 
 <script setup lang="ts">

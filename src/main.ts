@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import './style.css'
+import router from './routers'
 import App from './App.vue'
 // UI框架 element-plus
 import ElementPlus from 'element-plus'
@@ -14,4 +15,5 @@ import "@/styles/element-dark.scss";
 
 
 const app = createApp(App)
+app.use(router)
 app.use(ElementPlus).mount('#app')
